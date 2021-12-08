@@ -1,0 +1,36 @@
+.form {
+    align-items:center;
+}
+
+.form label {
+    font-weight: bold;
+    margin-right: 15px;
+    padding-top: 2px;
+}
+
+.form input {
+    width: 2.5rem;
+    height:1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 132, 132);
+}
+
+.actions {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.form button {
+    padding: 2px 30px;
+    border-radius: 10px;
+    background-color:rgb(0, 38, 255);
+    color:white;
+    border-color: rgb(0, 38, 255);
+    font-size:inherit;
+    cursor: pointer;
+}
+
+.form button:active,
+.form button:hover {
+    background-color:rgb(63, 63, 231);
+}

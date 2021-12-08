@@ -1,0 +1,28 @@
+.odst {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 5px 40px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    /*margin-bottom: 5px;*/
+}
+
+.price {
+    color: rgb(0, 38, 255);
+    font-weight: bold;
+    /*margin-bottom:5px;*/
+}
+
+.cara {
+    height:2px;
+    background-color:lightgrey;
+    /*padding: 5px 40px;*/
+    margin: 5px 40px;
+}
