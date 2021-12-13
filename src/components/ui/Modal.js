@@ -1,18 +1,13 @@
-import classes from './Modal.module.css';
-import MealList from '../MealList';
-import { MealContext } from '../context/mealContext';
-import {useContext} from 'react';
+import classes from "./Modal.module.css";
+import Cart from '../cart/Cart.js';
 
-function Modal() {
-
-    const mealCtx=useContext(MealContext);
-
-    return(
-        <div className={classes.modal}>
-            <h2>In your cart:</h2>
-            <MealList meals={mealCtx.mealsInCart} />
-        </div>
-    )
+function Modal(props) {
+  return (
+    <div className={classes.modal}>
+      <h2>In your cart:</h2>
+      <main><Cart onClose={props.onClose}/></main>
+    </div>
+  );
 }
 
 export default Modal;
